@@ -8,7 +8,7 @@ Awesome! Here's a polished, GitHub-ready README for **Kinofinder** with badges, 
 
 **Kinofinder** is a modern movie and TV show recommendation web app built with **React** and the **TMDb API**. Users can set personalized preferences—genres, languages, favorite actors, year, and rating—to get curated recommendations for both movies and TV shows.
 
-![Screenshot]![alt text](image.png)
+![alt text](image.png)
 
 ---
 
@@ -74,10 +74,10 @@ Open `http://localhost:5173` in your browser.
 ## 🖼 Screenshots
 
 **Preferences Page**
-![Preferences Page]![alt text](image-1.png)
+![alt text](image-1.png)
 
 **Recommendations Page**
-![Recommendations Page]![alt text](image-2.png)
+![alt text](image-2.png)
 
 ---
 
