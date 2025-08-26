@@ -17,7 +17,7 @@ const Navbar = ({ onAIRecommendationClick }) => {
         <div className="header-content">
           <a href="#" className="logo">
             <FontAwesomeIcon icon={faFilm} />
-            <span>CineMatch</span>
+            <span>KinoFinder</span>
           </a>
 
           <nav>
