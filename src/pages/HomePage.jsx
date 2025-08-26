@@ -5,6 +5,7 @@ import Trending from "../components/Trending";
 import MovieCard from "../components/MovieCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPlus } from "@fortawesome/free-solid-svg-icons";
+import Recommended from "../components/Recommended";
 
 const API_KEY = "d8eb1916689af1638494d5f5a980c2e9"; // 🔑 replace with your TMDb API key
 const API_URL = `https://api.themoviedb.org/3/trending/movie/week?api_key=${API_KEY}`;
@@ -54,27 +55,22 @@ export default function HomePage() {
           <h1>{currentMovie.title}</h1>
           <p>{currentMovie.overview.substring(0, 150)}...</p>
            <div className="cta-buttons">
-  <button className="btn btn-primary">
-    <FontAwesomeIcon icon={faPlay} /> Watch Now
-  </button>
-  <button className="btn btn-secondary">
-    <FontAwesomeIcon icon={faPlus} /> My List
-  </button>
-</div>
-
+              <button className="btn btn-primary">
+                <FontAwesomeIcon icon={faPlay} /> Watch Now
+              </button>
+              <button className="btn btn-secondary">
+                <FontAwesomeIcon icon={faPlus} /> My List
+              </button>
+            </div>
         </div>
       </div>
 
       {/* Recommendation area */}
-      <div className="recommendations">
-        <h2>Recommended for you</h2>
-        <div className="movie-grid">
-          {movies.slice(0, 6).map((movie) => (
-            <MovieCard movie={movie}/>
-          ))}
-        </div>
+     
+        
+        <Recommended />
         <Trending movies={movies}/>
-      </div>
+     
 
       <Footer/>
     </div>

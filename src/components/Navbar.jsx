@@ -22,11 +22,11 @@ const Navbar = ({ onAIRecommendationClick }) => {
 
           <nav>
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><a href="#">Movies</a></li>
               <li><a href="#">TV Shows</a></li>
               <li><a href="#">New</a></li>
-              <li><a href="#">My List</a></li>
+              <li><a href="/preferences">My Preferences</a></li>
             </ul>
           </nav>
 
@@ -58,7 +58,7 @@ const Navbar = ({ onAIRecommendationClick }) => {
             aria-label="AI Recommendations"
           >
             <FontAwesomeIcon icon={faRobot} />
-            <h3>Ai</h3>
+          <p>AI search</p>
           </button>
         </div>
       </div>
