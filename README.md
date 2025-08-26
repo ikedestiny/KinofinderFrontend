@@ -1,4 +1,3 @@
-Awesome! Here's a polished, GitHub-ready README for **Kinofinder** with badges, modern style, and all essential info:
 
 ---
 
