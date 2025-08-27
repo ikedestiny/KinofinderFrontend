@@ -48,7 +48,7 @@ const Navbar = ({ onAIRecommendationClick }) => {
   <i className="fas fa-search"></i>
 </div>
 
-
+{/* 
           <button 
             className="ai-recommendation-btn"
             onClick={handleAIClick}
@@ -56,7 +56,7 @@ const Navbar = ({ onAIRecommendationClick }) => {
           >
             <FontAwesomeIcon icon={faRobot} />
           <p>AI search</p>
-          </button>
+          </button> */}
         </div>
       </div>
     </header>
