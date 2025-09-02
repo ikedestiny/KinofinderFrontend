@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPlus } from "@fortawesome/free-solid-svg-icons";
 import Recommended from "../components/Recommended";
 
-const API_KEY = "d8eb1916689af1638494d5f5a980c2e9"; // 🔑 replace with your TMDb API key
+const API_KEY = "d8eb1916689af1638494d5f5a980c2e9"; 
 const API_URL = `https://api.themoviedb.org/3/trending/movie/week?api_key=${API_KEY}`;
 
 export default function HomePage() {
@@ -63,10 +63,7 @@ export default function HomePage() {
               </button>
             </div>
         </div>
-      </div>
-
-      {/* Recommendation area */}
-     
+      </div>     
         
         <Recommended />
         <Trending movies={movies}/>
